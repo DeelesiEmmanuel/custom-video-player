@@ -1,80 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom Video Player</title>
-
 </head>
 <body>
-  <section>
-    <div class="container">
-      <div id="video_player">
-        <div class="loading_indicator"></div>
-          <video preload="metadata" id="video-src" >
-          <source src="https://res.cloudinary.com/iamdeelesiemmanuel/video/upload/v1660292313/video_dgusnc.mp4" type="video/mp4" />
-         </video>
-        <div class="videoTime" >0:00</div>
-        
-        <div class="video_controls">
-          <div class="video_progress-line">
-            <canvas class="video_buffer-bar"></canvas>
-            <div class="video_progress-bar">
-              <span></span>
-            </div>
-          </div>
-
-          <div class="video_controls-list">
-            <div class="video_controls-left">
-              <span class="icon">
-                <i class="material-icons fast-rewind">replay_10</i>
-              </span>
-
-              <span class="icon">
-                <i class="material-icons play_pause" >play_arrow</i>
-              </span>
-
-              <span class="icon">
-                <i class="material-icons fast-forward">forward_10</i>
-              </span>
-
-              <span class="icon">
-                <i class="material-icons volume">volume_up</i>
-
-                <input type="range" min="0" max="100" class="volume_range" />
-              </span>
-
-              <div class="timer">
-                <span class="current">0:00</span> /
-                <span class="video_duration">0:00</span>
-              </div>
-            </div>
-
-            <div class="video_controls-right">
-              <span class="icon">
-                <i class="material-icons video_auto-play"></i>
-              </span>
-
-        
-
-              <span class="icon">
-                <i class="material-icons picture_in_picture_mode">picture_in_picture_alt</i>
-              </span>
-
-              <span class="icon">
-                <i class="material-icons fullscreen_mode">fullscreen</i>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-  <script src="./index.js"></script>
+  
 </body>
 </html>
-
-
-
-
